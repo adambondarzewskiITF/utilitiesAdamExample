@@ -1,0 +1,20 @@
+Package: utilitiesAdamExample
+Title: What the Package Does (one line, title case)
+Version: 0.0.1
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Imports:
+    data.table
+Depends:
+    R (>= 3.2.2),
+    data.table,
+    DT,
+    utilitiesBPO,
+    loggingUtilities
+Suggests:
+    testtthat,
+    testthat
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
