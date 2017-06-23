@@ -11,6 +11,15 @@ pkg_logger <- function(x) {
   get(x = x, envir = pkg_env)
 }
 
+#' Title
+#'
+#' @param x 
+#' @param logger 
+#'
+#' @return
+#' @export
+#'
+#' @examples
 registerLogger <- function(x, logger) {
   assign(x = x, value = logger, envir = pkg_env)
 }
