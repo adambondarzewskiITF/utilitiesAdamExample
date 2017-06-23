@@ -1,7 +1,7 @@
 library(utilitiesAdamExample)
 library(datasets)
 
-context('Aggregating columns')
+context('Testig aggregating columns')
 
 DT <- as.data.table(mtcars)
 

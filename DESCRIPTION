@@ -9,8 +9,8 @@ Depends:
     R (>= 3.2.2),
     data.table,
     DT,
-    utilitiesBPO,
-    loggingUtilities
+    logging,
+    knitr
 Suggests:
     testtthat,
     testthat

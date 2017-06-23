@@ -2,6 +2,7 @@
 
 export(aggregate_cols)
 export(check_colnames)
+export(create_logger)
 export(create_mysql_connection)
 export(detect_duplicates)
 export(divide_data_table_to_duplicated_and_not_duplicated)
