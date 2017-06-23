@@ -10,7 +10,8 @@ Depends:
     data.table,
     DT,
     logging,
-    knitr
+    knitr,
+    pacman
 Suggests:
     testtthat,
     testthat
