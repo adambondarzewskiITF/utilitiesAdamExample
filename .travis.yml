@@ -1,5 +1,5 @@
 {
-language": "r",
+  "language": "r",
   "sudo": false,
   "cache": "packages",
   "r_packages": [
