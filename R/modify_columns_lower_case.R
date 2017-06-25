@@ -3,8 +3,9 @@
 #' @param DT 
 #' @param aggregation_columns 
 #' @param aggregation_key 
+#' @param funs_chosen 
+#' @param aggregation_functions 
 #' @param cols_to_modify 
-#' @param fun_chosen 
 #'
 #' @return
 #' @export
@@ -103,6 +104,7 @@ modify_columns_and_aggregate <- function( DT
 #' @param cols_to_modify 
 #' @param aggregation_columns 
 #' @param aggregation_key 
+#' @param aggregation_functions 
 #'
 #' @return
 #' @export
