@@ -10,17 +10,23 @@ produce_datatable(DT, cols_colour = NULL, cols_hidden = c(),
   = F), ...)
 }
 \arguments{
-\item{DT}{}
+\item{DT}{data.table; table to show}
 
-\item{cols_colour}{}
+\item{cols_colour}{vector of characters; cols to colour}
 
-\item{cols_hidden}{}
+\item{cols_hidden}{vector of characters; columns to hide}
 
-\item{cols_bold}{}
+\item{cols_bold}{vector of characters; cols to bold}
 
-\item{page_length}{}
+\item{page_length}{integer; how many rows to show}
 
-\item{row_call_back}{}
+\item{row_call_back}{character; js to pass to datatable}
+
+\item{footer_call_back}{character; js to pass to datatable}
+
+\item{filter}{character; where to place filter}
+
+\item{...}{other arguments passed to datatable fun}
 }
 \description{
 Title

@@ -1,6 +1,6 @@
 #' Title
 #'
-#' @param x 
+#' @param x vector of numerics passed to sum function
 #'
 #' @return
 #' @export
@@ -10,7 +10,7 @@ sum2 <- function(x) {sum(x, na.rm = TRUE)}
 
 #' Title
 #'
-#' @param x 
+#' @param x vector of numerics passed to mean2 function
 #'
 #' @return
 #' @export

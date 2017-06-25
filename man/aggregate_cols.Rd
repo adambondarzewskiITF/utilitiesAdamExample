@@ -7,13 +7,16 @@
 aggregate_cols(DT, functions, variables_function, variables_aggregation)
 }
 \arguments{
-\item{DT}{}
+\item{DT}{data.table; table to aggregate}
 
-\item{functions}{}
+\item{functions}{list of functions; functions to apply to DT}
 
-\item{variables_function}{}
+\item{variables_function}{list of characters; variables functions would be applied to, accordingly (1st function to the first element of list, etc)}
 
-\item{variables_aggregation}{}
+\item{variables_aggregation}{vector of characters; variables for aggregation}
+}
+\value{
+DT_out data.table; aggregated table
 }
 \description{
 Title

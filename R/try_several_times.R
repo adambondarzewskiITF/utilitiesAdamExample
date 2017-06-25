@@ -1,10 +1,10 @@
 #' Title
 #'
-#' @param fun 
-#' @param args 
-#' @param condition 
-#' @param tries 
-#' @param wait 
+#' @param fun function; fun to apply several times
+#' @param args list of named characters; arguments of fun
+#' @param condition expression; e.g. expression(out$status_code == 200)
+#' @param tries integer; number of tries
+#' @param wait integer; time to wait between tries in seconds
 #'
 #' @return
 #' @export

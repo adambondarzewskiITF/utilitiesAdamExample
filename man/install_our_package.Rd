@@ -4,17 +4,17 @@
 \alias{install_our_package}
 \title{Title}
 \usage{
-install_our_package(creds_path = "~/pass/dcaplan_ab.txt", package_name,
-  user = "analitycy_reklamy", domain = "gitlab.iiit.pl")
+install_our_package(creds_path = "~/pass/git.txt", package_name,
+  user = "analitycy_reklamy", domain)
 }
 \arguments{
-\item{creds_path}{}
+\item{creds_path}{character; path to credentials}
 
-\item{package_name}{}
+\item{package_name}{character; package name to install}
 
-\item{user}{}
+\item{user}{character; gitlab user}
 
-\item{domain}{}
+\item{domain}{character; gitlab_domain}
 }
 \description{
 Title

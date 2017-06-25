@@ -7,9 +7,9 @@
 create_logger(name, logging_level, log_file)
 }
 \arguments{
-\item{name}{}
+\item{name}{character; name of logger}
 
-\item{logging_level}{}
+\item{logging_level}{numeric or character; see help to logging::setLevel}
 
-\item{log_file}{}
+\item{log_file}{character; path to file with logs}
 }

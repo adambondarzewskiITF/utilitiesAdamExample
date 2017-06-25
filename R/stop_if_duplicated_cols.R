@@ -1,6 +1,6 @@
 #' Title
 #'
-#' @param DT 
+#' @param DT data.table; table for check if there are duplicated cols present
 #'
 #' @return
 #' @export

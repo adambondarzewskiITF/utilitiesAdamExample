@@ -7,7 +7,7 @@
 sum2(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{vector of numerics passed to sum function}
 }
 \description{
 Title

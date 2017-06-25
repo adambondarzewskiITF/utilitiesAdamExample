@@ -7,9 +7,9 @@
 return_all_duplicated_rows(DT, cols)
 }
 \arguments{
-\item{DT}{}
+\item{DT}{data.table; table to inspect}
 
-\item{cols}{}
+\item{cols}{vector of characters; columns with primary key}
 }
 \description{
 Title

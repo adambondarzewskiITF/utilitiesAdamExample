@@ -1,7 +1,7 @@
 #' Title
 #'
-#' @param x 
-#' @param file_path 
+#' @param x R object; object to save
+#' @param file_path character; path to save R object
 #'
 #' @return
 #' @export

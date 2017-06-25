@@ -1,7 +1,7 @@
-#' Title
+#' Function checks if two tables has the same columns and returns any columns that are not present in one of the tables
 #'
-#' @param DT1 
-#' @param DT2 
+#' @param DT1 data.table; first table to inspect
+#' @param DT2 data.table; the second table to inspect
 #'
 #' @return
 #' @export

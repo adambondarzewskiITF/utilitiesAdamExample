@@ -8,15 +8,17 @@ modify_columns_and_aggregate(DT, cols_to_modify, funs_chosen,
   aggregation_functions, aggregation_columns, aggregation_key)
 }
 \arguments{
-\item{DT}{}
+\item{DT}{data.table; table to aggregate}
 
-\item{cols_to_modify}{}
+\item{cols_to_modify}{vector of characters; columns to modify by funs_chosen before aggregation}
 
-\item{aggregation_columns}{}
+\item{funs_chosen}{list of functions; functions applied to data before aggregate}
 
-\item{aggregation_key}{}
+\item{aggregation_functions}{list of functions; functions to apply to aggregation_columns, accordingly}
 
-\item{fun_chosen}{}
+\item{aggregation_columns}{list of vectors of characters; columns to aggregate}
+
+\item{aggregation_key}{vector of characters; columns to aggregate by}
 }
 \description{
 Title

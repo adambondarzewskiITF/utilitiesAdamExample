@@ -1,11 +1,11 @@
 #' Title
 #'
-#' @param DT 
-#' @param aggregation_columns 
-#' @param aggregation_key 
-#' @param funs_chosen 
-#' @param aggregation_functions 
-#' @param cols_to_modify 
+#' @param DT data.table; table to aggregate
+#' @param aggregation_columns list of vectors of characters; columns to aggregate
+#' @param aggregation_key vector of characters; columns to aggregate by
+#' @param funs_chosen list of functions; functions applied to data before aggregate
+#' @param aggregation_functions list of functions; functions to apply to aggregation_columns, accordingly
+#' @param cols_to_modify vector of characters; columns to modify by funs_chosen before aggregation
 #'
 #' @return
 #' @export
@@ -100,11 +100,11 @@ modify_columns_and_aggregate <- function( DT
 
 #' Title
 #'
-#' @param DT 
-#' @param cols_to_modify 
-#' @param aggregation_columns 
-#' @param aggregation_key 
-#' @param aggregation_functions 
+#' @param DT data.table; table to aggregate
+#' @param cols_to_modify vector of characters; see help to modify_columns_and_aggregate fun
+#' @param aggregation_columns list of vectors of characters; see help to modify_columns_and_aggregate fun
+#' @param aggregation_key vector of characters; see help to modify_columns_and_aggregate fun
+#' @param aggregation_functions list of functions; see help to modify_columns_and_aggregate fun
 #'
 #' @return
 #' @export
@@ -127,11 +127,10 @@ modify_columns_lower_case <- function( DT
 
 #' Title
 #'
-#' @param DT 
-#' @param cols_to_modify 
-#' @param aggregation_functions 
-#' @param aggregation_columns 
-#' @param aggregation_key 
+#' @param DT data.table; table to aggregate
+#' @param cols_to_modify vector of characters; see help to modify_columns_and_aggregate fun
+#' @param aggregation_columns list of vectors of characters; see help to modify_columns_and_aggregate fun
+#' @param aggregation_key vector of characters; see help to modify_columns_and_aggregate fun
 #'
 #' @return
 #' @export

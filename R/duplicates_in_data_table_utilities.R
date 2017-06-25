@@ -1,7 +1,7 @@
 #' Title
 #'
-#' @param DT 
-#' @param cols 
+#' @param DT data.table; table to inspect
+#' @param cols vector of characters; columns with primary key 
 #'
 #' @return
 #' @export
@@ -19,8 +19,8 @@ return_all_duplicated_rows <- function(DT, cols) {
 
 #' Title
 #'
-#' @param DT 
-#' @param cols 
+#' @param DT data.table; table to divide into two parts
+#' @param cols vector of characters; columns to check for duplicated entries
 #'
 #' @return
 #' @export

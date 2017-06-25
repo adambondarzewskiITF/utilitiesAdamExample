@@ -1,7 +1,7 @@
-#' @param name 
+#' @param name character; name of logger
 #'
-#' @param logging_level 
-#' @param log_file 
+#' @param logging_level numeric or character; see help to logging::setLevel
+#' @param log_file character; path to file with logs
 #'
 #' @title Creates logger
 #' @export

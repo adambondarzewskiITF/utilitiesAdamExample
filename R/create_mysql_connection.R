@@ -1,10 +1,10 @@
 #' Title
 #'
-#' @param host_name 
-#' @param db_name 
-#' @param creds_path 
+#' @param host_name character; name of host to connect
+#' @param db_name character; name of data base to connect;
+#' @param creds_path character; path to credentials
 #'
-#' @return
+#' @return db_bi; mysql connection
 #' @export
 #'
 #' @examples

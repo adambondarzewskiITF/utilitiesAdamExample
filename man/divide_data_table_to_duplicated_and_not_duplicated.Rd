@@ -7,9 +7,9 @@
 divide_data_table_to_duplicated_and_not_duplicated(DT, cols)
 }
 \arguments{
-\item{DT}{}
+\item{DT}{data.table; table to divide into two parts}
 
-\item{cols}{}
+\item{cols}{vector of characters; columns to check for duplicated entries}
 }
 \description{
 Title

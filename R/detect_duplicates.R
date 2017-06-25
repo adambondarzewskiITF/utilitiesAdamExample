@@ -1,7 +1,7 @@
 #' Title
 #'
-#' @param DT 
-#' @param cols 
+#' @param DT data.table; table to inspect
+#' @param cols vector of characters; columns with primary key (for sure? :D)
 #'
 #' @return
 #' @export

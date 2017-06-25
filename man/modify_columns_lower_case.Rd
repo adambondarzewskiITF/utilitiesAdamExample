@@ -8,13 +8,15 @@ modify_columns_lower_case(DT, cols_to_modify, aggregation_functions,
   aggregation_columns, aggregation_key)
 }
 \arguments{
-\item{DT}{}
+\item{DT}{data.table; table to aggregate}
 
-\item{cols_to_modify}{}
+\item{cols_to_modify}{vector of characters; see help to modify_columns_and_aggregate fun}
 
-\item{aggregation_columns}{}
+\item{aggregation_functions}{list of functions; see help to modify_columns_and_aggregate fun}
 
-\item{aggregation_key}{}
+\item{aggregation_columns}{list of vectors of characters; see help to modify_columns_and_aggregate fun}
+
+\item{aggregation_key}{vector of characters; see help to modify_columns_and_aggregate fun}
 }
 \description{
 Title

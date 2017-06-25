@@ -8,11 +8,14 @@ create_mysql_connection(host_name = config$host_name,
   db_name = config$db_name, creds_path = config$creds_path)
 }
 \arguments{
-\item{host_name}{}
+\item{host_name}{character; name of host to connect}
 
-\item{db_name}{}
+\item{db_name}{character; name of data base to connect;}
 
-\item{creds_path}{}
+\item{creds_path}{character; path to credentials}
+}
+\value{
+db_bi; mysql connection
 }
 \description{
 Title

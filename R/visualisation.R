@@ -1,11 +1,14 @@
 #' Title
 #'
-#' @param cols_colour 
-#' @param DT 
-#' @param cols_hidden 
-#' @param cols_bold 
-#' @param page_length 
-#' @param row_call_back 
+#' @param cols_colour vector of characters; cols to colour
+#' @param DT data.table; table to show
+#' @param cols_hidden vector of characters; columns to hide
+#' @param cols_bold vector of characters; cols to bold
+#' @param page_length integer; how many rows to show
+#' @param row_call_back character; js to pass to datatable
+#' @param footer_call_back character; js to pass to datatable
+#' @param filter character; where to place filter
+#' @param ...  other arguments passed to datatable fun
 #'
 #' @return
 #' @export

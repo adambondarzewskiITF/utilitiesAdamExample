@@ -1,11 +1,12 @@
 #' Title
 #'
-#' @param DT 
-#' @param functions 
-#' @param variables_function 
-#' @param variables_aggregation 
+#' @param DT data.table; table to aggregate
+#' @param functions list of functions; functions to apply to DT
+#' @param variables_function list of characters; variables functions would be applied to, accordingly (1st function to the first element of list, etc)
+#' @param variables_aggregation vector of characters; variables for aggregation
+#'
 #' @import data.table
-#' @return
+#' @return DT_out data.table; aggregated table
 #' @export
 #'
 #' @examples

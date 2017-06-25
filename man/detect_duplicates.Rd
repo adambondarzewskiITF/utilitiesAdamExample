@@ -7,9 +7,9 @@
 detect_duplicates(DT, cols)
 }
 \arguments{
-\item{DT}{}
+\item{DT}{data.table; table to inspect}
 
-\item{cols}{}
+\item{cols}{vector of characters; columns with primary key (for sure? :D)}
 }
 \description{
 Title

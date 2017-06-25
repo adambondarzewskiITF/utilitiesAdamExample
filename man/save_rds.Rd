@@ -7,9 +7,9 @@
 save_rds(x, file_path)
 }
 \arguments{
-\item{x}{}
+\item{x}{R object; object to save}
 
-\item{file_path}{}
+\item{file_path}{character; path to save R object}
 }
 \description{
 Title

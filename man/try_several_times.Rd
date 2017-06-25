@@ -7,15 +7,15 @@
 try_several_times(fun, args, condition, tries = 15, wait = 5)
 }
 \arguments{
-\item{fun}{}
+\item{fun}{function; fun to apply several times}
 
-\item{args}{}
+\item{args}{list of named characters; arguments of fun}
 
-\item{condition}{}
+\item{condition}{expression; e.g. expression(out$status_code == 200)}
 
-\item{tries}{}
+\item{tries}{integer; number of tries}
 
-\item{wait}{}
+\item{wait}{integer; time to wait between tries in seconds}
 }
 \description{
 Title

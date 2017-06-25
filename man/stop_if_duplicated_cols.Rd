@@ -7,7 +7,7 @@
 stop_if_duplicated_cols(DT)
 }
 \arguments{
-\item{DT}{}
+\item{DT}{data.table; table for check if there are duplicated cols present}
 }
 \description{
 Title

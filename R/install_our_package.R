@@ -1,9 +1,9 @@
 #' Title
 #'
-#' @param creds_path 
-#' @param package_name 
-#' @param user 
-#' @param domain 
+#' @param creds_path character; path to credentials
+#' @param package_name character; package name to install
+#' @param user character; gitlab user
+#' @param domain character; gitlab_domain
 #'
 #' @return
 #' @export
